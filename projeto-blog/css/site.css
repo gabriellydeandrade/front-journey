@@ -12,18 +12,32 @@ main h1 {
   text-align: center;
   background-color: #851944;
 }
-p {
-  text-align: justify;
-}
 
-cite {
-  color: #D9E5E3;
-}
+  p {
+    text-align: justify;
+  }
+
+  cite {
+    color: #D9E5E3;
+  }
 
 aside nav {
   background-color: #3C1D3D;
   color: #F2FFFC;
 }
+
+/* Estilos para os links */
+
+main a {
+  color: #851944;
+}
+
+aside a {
+  color: inherit; /* Pega a cor que foi definido no pai */
+  font-family: 'Open Sans', sans-serif;
+}
+
+
 
 footer {
   background-color: #000;
