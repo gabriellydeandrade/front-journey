@@ -11,18 +11,28 @@ main h1 {
   color: #FFFFFF;
   text-align: center;
   background-color: #851944;
+  padding: 20px;
 }
 
-  p {
-    text-align: justify;
-  }
+p {
+  text-align: justify;
+}
 
-  cite {
-    color: #D9E5E3;
-  }
+cite {
+  color: #797979;
+}
+blockquote {
+  padding: 10px;
+  background-color: #fdf6f6;
+}
 
-aside nav {
+aside {
   background-color: #3C1D3D;
+  color: #F2FFFC;
+}
+
+footer {
+  background-color: #000;
   color: #F2FFFC;
 }
 
@@ -35,11 +45,5 @@ main a {
 aside a {
   color: inherit; /* Pega a cor que foi definido no pai */
   font-family: 'Open Sans', sans-serif;
-}
-
-
-
-footer {
-  background-color: #000;
-  color: #F2FFFC;
+  text-decoration: none;
 }
