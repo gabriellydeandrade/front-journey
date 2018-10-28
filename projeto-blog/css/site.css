@@ -1,29 +1,59 @@
 body {
-  font-family: 'Times New Roman', serif;
-  background-color: #F2FFFC;
+  font-family: 'Crimson Text', 'Times New Roman', serif;
+  background-color: #f3eeee8a;
+  font-size: 120%;
+  line-height: 1.5; //Especifica um valor relativo ao tamanho da fonte
 }
 
 h1, h2{
   font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+}
+
+main div{
+  width: 720px;
+  margin: 30px auto 30px auto;
 }
 
 main h1 {
   color: #FFFFFF;
   text-align: center;
   background-color: #851944;
-  padding: 20px;
+  border-bottom: 10px solid #5f0227;
+  padding: 25px;
+  margin: 0;
+  font-size: 50px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
 }
 
 p {
   text-align: justify;
+  margin: 20px 0 20px 0;
 }
 
 cite {
   color: #797979;
 }
+
 blockquote {
-  padding: 10px;
+  padding: 20px;
   background-color: #fdf6f6;
+  border: 10px solid #c5a7a7;
+  border-right-color: #e6cdcd;
+  border-left-color: #e6cdcd;
+  /* border-bottom-style: inherit;
+  border-top-style: inherit; */
+  width: 400px;
+  box-sizing: border-box; /* Deixando sem essa propeidade não iriamos ter um tamanho fixo para o elemento e sim com o somatório do pading e margem*/
+  margin: 0;
+  margin: 20px 40px 20px 40px;
 }
 
 aside {
@@ -31,9 +61,22 @@ aside {
   color: #F2FFFC;
 }
 
+aside h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+aside div {
+  text-align: center;
+}
+
 footer {
   background-color: #000;
   color: #F2FFFC;
+}
+
+blockquote, aside, footer {
+    padding: 20px;
 }
 
 /* Estilos para os links */
