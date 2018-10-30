@@ -1,3 +1,7 @@
+/* * {
+    display: inline;
+} */
+
 body {
   font-family: 'Crimson Text', 'Times New Roman', serif;
   background-color: #f3eeee8a;
@@ -7,7 +11,8 @@ body {
 
 h1, h2{
   font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 main div{
@@ -68,6 +73,10 @@ aside h1 {
 
 aside div {
   text-align: center;
+}
+
+aside li {
+  display: none; //Permite a propriedade em linha capaz de definir a altura e a largura
 }
 
 footer {
