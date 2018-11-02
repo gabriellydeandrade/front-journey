@@ -9,18 +9,22 @@ body {
   line-height: 1.5; //Especifica um valor relativo ao tamanho da fonte
 }
 
-h1, h2{
+.titulo-da-pagina, .titulo-do-post, .subtitulo, .navegacao-site h1{
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
   font-weight: bold;
 }
 
-main div{
+.titulo-do-post, .subtitulo {
+  color: #483d3d;
+}
+
+main div {
   width: 720px;
   margin: 30px auto 30px auto;
 }
 
-main h1 {
+.titulo-da-pagina {
   color: #FFFFFF;
   text-align: center;
   background-color: #851944;
@@ -47,8 +51,8 @@ cite {
   color: #797979;
 }
 
-blockquote {
-  padding: 20px;
+.citacoes {
+  padding: 40px;
   background-color: #fdf6f6;
   border: 10px solid #c5a7a7;
   border-right-color: #e6cdcd;
@@ -61,31 +65,29 @@ blockquote {
   margin: 20px 40px 20px 40px;
 }
 
-aside {
+.navegacao-site {
+  padding: 20px;
   background-color: #3C1D3D;
   color: #F2FFFC;
 }
 
-aside h1 {
+.navegacao-site h1 {
   font-size: 30px;
   margin-bottom: 25px;
 }
 
-aside div {
+.navegacao-site div {
   text-align: center;
 }
 
-aside li {
-  display: none; //Permite a propriedade em linha capaz de definir a altura e a largura
+.icones-redes-sociais li {
+  display: inline-block; //Permite a propriedade em linha capaz de definir a altura e a largura
 }
 
-footer {
+#rodape-pagina {
   background-color: #000;
   color: #F2FFFC;
-}
-
-blockquote, aside, footer {
-    padding: 20px;
+  padding: 20px;
 }
 
 /* Estilos para os links */
@@ -94,8 +96,32 @@ main a {
   color: #851944;
 }
 
-aside a {
+.navegacao-site a {
   color: inherit; /* Pega a cor que foi definido no pai */
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
+}
+
+.posts {
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.leia-mais {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 5px 0 5px 0;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.leia-mais:hover p {
+  border: 1px solid #851944;
+}
+
+.leia-mais p{
+  background-color: #cccccc40;
+  border: 1px solid #ccc;
+  text-align: center;
 }
