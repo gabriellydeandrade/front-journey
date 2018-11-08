@@ -32,6 +32,7 @@ main div {
   padding: 25px;
   margin: 0;
   font-size: 50px;
+  text-transform: uppercase;
 }
 
 strong {
@@ -100,6 +101,7 @@ main a {
   color: inherit; /* Pega a cor que foi definido no pai */
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
+  text-transform: lowercase;
 }
 
 .posts {
