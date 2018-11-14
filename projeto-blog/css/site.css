@@ -54,16 +54,24 @@ cite {
 
 .citacoes {
   padding: 40px;
-  background-color: #fdf6f6;
+  background-color: #ffeeeb;
   border: 10px solid #c5a7a7;
-  border-right-color: #e6cdcd;
-  border-left-color: #e6cdcd;
+  /* border-right-color: #e6cdcd; */
+  /* border-left-color: #e6cdcd; */
   /* border-bottom-style: inherit;
   border-top-style: inherit; */
-  width: 400px;
-  box-sizing: border-box; /* Deixando sem essa propeidade não iriamos ter um tamanho fixo para o elemento e sim com o somatório do pading e margem*/
+  width: 310px;
+  box-sizing: border-box; /* Deixando sem essa propriedade não iriamos ter um tamanho fixo para o elemento e sim com o somatório do pading e margem*/
   margin: 0;
   margin: 20px 40px 20px 40px;
+}
+
+.fiat{
+  float: right;
+}
+
+.petrobras {
+  float: left;
 }
 
 .navegacao-site {
