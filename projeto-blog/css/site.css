@@ -19,7 +19,7 @@ body {
   color: #483d3d;
 }
 
-main div {
+.container {
   width: 720px;
   margin: 30px auto 30px auto;
 }
