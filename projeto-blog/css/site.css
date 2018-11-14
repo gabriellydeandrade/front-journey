@@ -19,6 +19,10 @@ body {
   color: #483d3d;
 }
 
+.subtitulo{
+  clear: both;
+}
+
 .container {
   width: 720px;
   margin: 30px auto 30px auto;
@@ -50,6 +54,7 @@ p {
 
 cite {
   color: #797979;
+  font-style: italic;
 }
 
 .citacoes {
