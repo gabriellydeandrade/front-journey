@@ -26,6 +26,7 @@ body {
 .container {
   width: 720px;
   margin: 30px auto 30px auto;
+  /* float: left; */
 }
 
 .titulo-da-pagina {
@@ -79,6 +80,22 @@ cite {
   float: left;
 }
 
+.foto-bio{
+  border: 5px solid black;
+}
+
+main {
+  float: left;
+  width: 85%;
+}
+
+.navegacao-site, .foto-bio{
+  width: 15%;
+  float: right;
+  box-sizing: border-box;
+
+}
+
 .navegacao-site {
   padding: 20px;
   background-color: #3C1D3D;
@@ -121,6 +138,7 @@ cite {
   background-color: #000;
   color: #F2FFFC;
   padding: 20px;
+  clear: both;
 }
 
 /* Estilos para os links */
