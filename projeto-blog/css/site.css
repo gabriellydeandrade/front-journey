@@ -9,18 +9,10 @@ body {
   line-height: 1.5; //Especifica um valor relativo ao tamanho da fonte
 }
 
-.titulo-da-pagina, .titulo-do-post, .subtitulo, .navegacao-site h1{
+.titulo-da-pagina, .navegacao-site h1{
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
   font-weight: bold;
-}
-
-.titulo-do-post, .subtitulo {
-  color: #483d3d;
-}
-
-.subtitulo{
-  clear: both;
 }
 
 .container {
@@ -40,45 +32,12 @@ body {
   text-transform: uppercase;
 }
 
-strong {
-  font-weight: bold;
-}
-
-em {
-  font-style: italic;
-}
 
 p {
   text-align: justify;
   margin: 20px 0 20px 0;
 }
 
-cite {
-  color: #797979;
-  font-style: italic;
-}
-
-.citacoes {
-  padding: 40px;
-  background-color: #ffeeeb;
-  border: 10px solid #c5a7a7;
-  /* border-right-color: #e6cdcd; */
-  /* border-left-color: #e6cdcd; */
-  /* border-bottom-style: inherit;
-  border-top-style: inherit; */
-  width: 310px;
-  box-sizing: border-box; /* Deixando sem essa propriedade não iriamos ter um tamanho fixo para o elemento e sim com o somatório do pading e margem*/
-  margin: 0;
-  margin: 20px 40px 20px 40px;
-}
-
-.fiat{
-  float: right;
-}
-
-.petrobras {
-  float: left;
-}
 
 main {
   float: left;
@@ -164,28 +123,4 @@ main a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   text-transform: lowercase;
-}
-
-.posts {
-  padding-bottom: 30px;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #ccc;
-}
-
-.leia-mais {
-  font-weight: bold;
-  font-size: 1.2rem;
-  padding: 5px 0 5px 0;
-  margin-bottom: 30px;
-  text-decoration: none;
-}
-
-.leia-mais:hover p {
-  border: 1px solid #851944;
-}
-
-.leia-mais p{
-  background-color: #cccccc40;
-  border: 1px solid #ccc;
-  text-align: center;
 }

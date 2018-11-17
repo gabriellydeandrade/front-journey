@@ -1,0 +1,42 @@
+.subtitulo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #483d3d;
+  clear: both;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+cite {
+  color: #797979;
+  font-style: italic;
+}
+
+.citacoes {
+  padding: 40px;
+  background-color: #ffeeeb;
+  border: 10px solid #c5a7a7;
+  /* border-right-color: #e6cdcd; */
+  /* border-left-color: #e6cdcd; */
+  /* border-bottom-style: inherit;
+  border-top-style: inherit; */
+  width: 310px;
+  box-sizing: border-box; /* Deixando sem essa propriedade não iriamos ter um tamanho fixo para o elemento e sim com o somatório do pading e margem*/
+  margin: 0;
+  margin: 20px 40px 20px 40px;
+}
+
+.fiat{
+  float: right;
+}
+
+.petrobras {
+  float: left;
+}

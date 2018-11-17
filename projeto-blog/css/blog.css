@@ -1,0 +1,30 @@
+.titulo-do-post {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #483d3d;
+}
+
+.posts {
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.leia-mais {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 5px 0 5px 0;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.leia-mais:hover p {
+  border: 1px solid #851944;
+}
+
+.leia-mais p{
+  background-color: #cccccc40;
+  border: 1px solid #ccc;
+  text-align: center;
+}
