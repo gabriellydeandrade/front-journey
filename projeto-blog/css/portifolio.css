@@ -1,0 +1,20 @@
+.dupla-projetos {
+  height: 362px;
+  width: 900px;
+  padding-bottom: 16px;
+  /* display: block; */
+}
+
+.projeto {
+  background-color: #FAFFFC;
+  width: 320px;
+  height: 320px;
+  margin: 16px;
+  padding: 16px;
+  border: 5px solid #5f0227;
+  display: inline-block;
+}
+
+.conteudo {
+  position: absolute;
+}
