@@ -80,26 +80,34 @@ cite {
   float: left;
 }
 
-.foto-bio{
-  border: 5px solid black;
-}
-
 main {
   float: left;
-  width: 85%;
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.foto-bio{
+  position: fixed;
+  top: 0px;
+  right:0px
 }
 
 .navegacao-site, .foto-bio{
-  width: 15%;
   float: right;
   box-sizing: border-box;
+  border: 10px solid black;
+  right: 20px;
 
 }
 
 .navegacao-site {
-  padding: 20px;
   background-color: #3C1D3D;
   color: #F2FFFC;
+  position: fixed;
+  top: 310px;
+  width: 15%;
+  height: 350px;
+
 }
 
 .navegacao-site h1 {
@@ -108,6 +116,7 @@ main {
 }
 
 .navegacao-site div {
+  margin: 30px auto 30px auto;
   text-align: center;
 }
 
@@ -139,6 +148,9 @@ main {
   color: #F2FFFC;
   padding: 20px;
   clear: both;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 /* Estilos para os links */
