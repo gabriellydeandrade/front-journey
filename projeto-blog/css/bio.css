@@ -1,6 +1,6 @@
 .subtitulo {
   font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #483d3d;
   clear: both;
@@ -20,9 +20,9 @@ cite {
 }
 
 .citacoes {
-  padding: 40px;
+  padding: 2rem;
   background-color: #ffeeeb;
-  border: 10px solid #c5a7a7;
+  border: 0.5rem solid #c5a7a7;
   /* border-right-color: #e6cdcd; */
   /* border-left-color: #e6cdcd; */
   /* border-bottom-style: inherit;
@@ -30,7 +30,7 @@ cite {
   width: 310px;
   box-sizing: border-box; /* Deixando sem essa propriedade não iriamos ter um tamanho fixo para o elemento e sim com o somatório do pading e margem*/
   margin: 0;
-  margin: 20px 40px 20px 40px;
+  margin: 1rem 2rem 1rem 2rem;
 }
 
 .fiat{

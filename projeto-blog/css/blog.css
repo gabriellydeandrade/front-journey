@@ -1,21 +1,21 @@
 .titulo-do-post {
   font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
+  font-size: 1.25rem;
   font-weight: bold;
   color: #483d3d;
 }
 
 .posts {
-  padding-bottom: 30px;
-  margin-bottom: 20px;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
   border-bottom: 1px solid #ccc;
 }
 
 .leia-mais {
   font-weight: bold;
   font-size: 1.2rem;
-  padding: 5px 0 5px 0;
-  margin-bottom: 30px;
+  padding: .5rem 0 .5rem 0;
+  margin-bottom: 1.5rem;
   text-decoration: none;
 }
 
@@ -27,4 +27,5 @@
   background-color: #cccccc40;
   border: 1px solid #ccc;
   text-align: center;
+  font-size: 1.5rem;
 }

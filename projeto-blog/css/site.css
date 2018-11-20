@@ -11,7 +11,7 @@ body {
 
 .titulo-da-pagina, .navegacao-site h1{
   font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
@@ -25,10 +25,10 @@ body {
   color: #FFFFFF;
   text-align: center;
   background-color: #851944;
-  border-bottom: 10px solid #5f0227;
-  padding: 25px;
+  border-bottom: .5rem solid #5f0227;
+  padding: 1.25rem;
   margin: 0;
-  font-size: 50px;
+  font-size: 300%;
   text-transform: uppercase;
 }
 
@@ -54,8 +54,8 @@ main {
 .navegacao-site, .foto-bio{
   float: right;
   box-sizing: border-box;
-  border: 10px solid black;
-  right: 20px;
+  border: .5rem solid black;
+  right: 1.20rem;
 
 }
 
@@ -65,18 +65,21 @@ main {
   position: fixed;
   top: 310px;
   width: 15%;
-  height: 350px;
 
 }
 
 .navegacao-site h1 {
-  font-size: 30px;
-  margin-bottom: 25px;
+  font-size: 1.5em;
+  margin-bottom: 1em;
 }
 
 .navegacao-site div {
-  margin: 30px auto 30px auto;
+  margin: 1.5em auto 1.5em auto;
   text-align: center;
+}
+
+.icones-redes-sociais {
+  margin-top: 2em;
 }
 
 .icones-redes-sociais li {
@@ -105,7 +108,7 @@ main {
 #rodape-pagina {
   background-color: #000;
   color: #F2FFFC;
-  padding: 20px;
+  padding: 1rem;
   clear: both;
   position: fixed;
   bottom: 0px;
@@ -116,6 +119,7 @@ main {
 
 main a {
   color: #851944;
+  font-size: 1.2rem;
 }
 
 .navegacao-site a {
